@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-
+// ! classta this olarak alıyoruz.
+// props: bir componentten başka bir componente veri taşımak.
 export default class MainBodyClass extends Component {
-  //main="Main bilgisi" computerName="com52Xy" computerTrade="Marka" computerPrice="12"
   render() {
     console.log(this.props)
     const{main,computerName,computerTrade,computerPrice}=this.props;
