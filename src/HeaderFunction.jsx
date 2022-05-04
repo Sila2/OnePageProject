@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default function Header() {
+export default function HeaderFunction(props) {
+    console.log(props)
     return ( 
         <div >
         <h1 className = 'text-primary' > Header </h1> 
+        <p>{props.head}</p>
+        <hr />
             <nav class="navbar navbar-expand-sm navbar-light bg-primary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">primary</a>
