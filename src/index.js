@@ -4,7 +4,8 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import FormBind from './FormBind';
+//import FormBind from './FormBind';
+import StateClass2 from './StateClass2';
 //import EventBind from './EventBind';
 //import MemoryData from './MemoryData';
 // import HeaderFunction from './HeaderFunction';
@@ -27,8 +28,9 @@ root.render(
     {/* //burda data gönderip data alabilirim. */}
     {/* //data göndermek istediğimde props yapısını kullanırım */}
 
-    <FormBind/>
-    {/*<MemoryData dataBind="dataBindValue" dataChange="dataChangeValue" dataInMemory="dataInMemoryValue"/>
+    <StateClass2 dataChange="Datalarım geldi"/>
+    {/*<FormBind/>
+    <MemoryData dataBind="dataBindValue" dataChange="dataChangeValue" dataInMemory="dataInMemoryValue"/>
     <EventBind language="js java html5"/>
     <EventStringifyParse header={objectData.mainData} classData={objectData.classData}/>
      <HeaderFunction head="header_name"/>
