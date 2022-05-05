@@ -29,6 +29,18 @@ export default class EventBind extends Component {
         console.log(this.props.language)
     }
 
+
+    //constructor yapısını çağırmadan render ı çağırırsak undefined(tanımlanmamış) olur.
+    //çünkü render da çağrılan method hiçbi yerde değil.
+    //çalıştırabilmek için bind işlemi yapmak lazım.
+
+    //props yapısı: bir konteyner dan diğer bir konteyner a veri taşımak istendiğinde
+    //içerdeki verilere erişmek için bind işlemleri
+
+    //state yapısı: o anda o datanın yani komponentin içinde kullanılan datanın, javascript objesinin ne durumda olduğunu söyler
+
+    //virtualDOM değişen state yapısını farkeder ve anlık olarak bize sunar
+
   render() {
       console.log(this.props)
     return (
